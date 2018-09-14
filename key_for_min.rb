@@ -12,6 +12,8 @@ def key_for_min_value(name_hash)
         rtn_key = key
       end
     end
+    rtn_key
+  else
+    nil
   end
-  rtn_key
 end
